@@ -1,3 +1,5 @@
+package aula2
+
 class Carro(val nome: String,
             val placa : String ) {
 

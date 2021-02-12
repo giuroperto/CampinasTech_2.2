@@ -1,3 +1,5 @@
+package aula2
+
 // nao precisa escrever constructor e nem chaves para criar o construtor
 // data class e uma classe so para armazenar dados
 data class Livro ( var titulo: String,
@@ -8,7 +10,7 @@ data class Livro ( var titulo: String,
 
 // nao ha necessidade de metodos getter e setters, mas podem ser declarados se quiser
 
-//class Livro {
+//class `Aula 2`.Livro {
 //    private var titulo : String
 //    private var numeroPaginas : Int
 //    private var autor : String
@@ -38,8 +40,8 @@ data class Livro ( var titulo: String,
 
 //Em Java
 /*
-* // classe publica pois outras classes podem acessar, ou por exemplo a fun main()
-* public class Livro {
+* // classe publica pois outras classes podem acessar, ou por exemplo a fun `Aula 2`.main()
+* public class `Aula 2`.Livro {
 *   private String titulo;
 *   private int paginas;
 *   private String autor;
@@ -48,7 +50,7 @@ data class Livro ( var titulo: String,
 *
 *   // metodo construtor sempre vai ter nome da classe e vai ser publico
 *
-*   public Livro(String titulo, int Paginas, String autor, String editora) {
+*   public `Aula 2`.Livro(String titulo, int Paginas, String autor, String editora) {
 *       titulo = titulo;
 *   }
 *

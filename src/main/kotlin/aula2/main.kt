@@ -1,9 +1,9 @@
-//AULA 2 - Classes
+package aula2//AULA 2 - Classes
 
 fun main() {
     // criar objeto em JAVA
     // tipo da classe, variavel. New -> criacao do objeto a partir da classe e os valores a serem passados
-    // Livro harryPotter = new Livro("", ""...);
+    // `Aula 2`.Livro harryPotter = new `Aula 2`.Livro("", ""...);
     var harryPotter = Livro("Harry Potter e a Pedra Filosofal",
         200,
         "J. K. Rowling",

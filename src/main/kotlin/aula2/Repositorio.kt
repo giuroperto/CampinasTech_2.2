@@ -1,3 +1,5 @@
+package aula2
+
 // comunicar com o servidor
 // recebe um cara que vai ter o redirecionamento da chamada
 class Repositorio( val redirecionamento : Redirecionamento) {
